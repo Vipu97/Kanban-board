@@ -1,0 +1,42 @@
+.card-wrapper{
+    background-color: #fff;
+    padding: 0.9rem 0.6rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px gainsboro 5px;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.card-header > span{
+    font-size: 0.7em;
+    color: gray;
+    padding-bottom: 3px;
+}
+.mid-section{
+    display: flex;
+    align-items:flex-start;
+    gap: 10px;
+}
+.mid-section > img{
+    padding-top: 2px;
+}
+.mid-section > p{
+    font-size: 0.7em;
+    font-weight: 500;
+}
+.card-footer{
+    display: flex;
+    gap: 1.8rem;
+    align-items: center;
+    padding-top: 7px;
+}
+.card-footer > div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.card-footer > div > span{
+    font-size: 0.6em;
+    color: gray;
+}

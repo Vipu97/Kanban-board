@@ -1,0 +1,37 @@
+.hero-wrapper{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    gap:2rem;
+    flex-wrap: wrap;
+}
+.section{
+    flex: 1;
+    max-width: 390px;
+}
+.section > .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.title-left-part{
+    display: flex;
+    gap: 7px;
+    font-size: 0.8em;
+    align-items: center;
+}
+.title-left-part > span{
+    font-weight: 500;
+}
+.title-right-part{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    justify-content: space-between;
+}
+.task-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

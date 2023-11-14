@@ -1,0 +1,46 @@
+.header{
+    background-color:#fff;
+    padding: 1rem 2rem;
+}
+.display-button{
+    cursor: pointer;
+    border: 1.5px solid gainsboro;
+    border-radius: 5px;
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.menu{
+    width: 250px;
+    height: 87px;
+    border: 1px solid gainsboro;
+    padding: 13px 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px gainsboro;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+}
+.menu.active {
+    display: block;
+}
+.menu > .row{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+.row > span{
+    font-size: 13px;
+}
+.row > select{
+    font-weight: 500;
+    width: 100px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 1px;
+    color: black;
+}
